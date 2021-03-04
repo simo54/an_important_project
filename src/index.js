@@ -1,3 +1,2 @@
 import _ from "lodash";
-
-console.log("console test");
+require("../style/general.css");
