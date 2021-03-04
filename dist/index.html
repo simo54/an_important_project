@@ -4,11 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="../node_modules/@splidejs/splide/dist/css/splide.min.css"
-    />
-
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.css" />
     <title>A nice Webpage</title>
   </head>
   <body>
@@ -21,22 +17,74 @@
         </ul>
       </nav>
 
-      <div class="splide">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">Slide 01</li>
-            <li class="splide__slide">Slide 02</li>
-            <li class="splide__slide">Slide 03</li>
-          </ul>
+      <main class="main">
+        <div class="container">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card-image">
+                  <img
+                    src="https://source.unsplash.com/1280x720/?nature"
+                    alt="Image Slider"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-image">
+                  <img
+                    src="https://source.unsplash.com/1280x720/?nature,water,animal"
+                    alt="Image Slider"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-image">
+                  <img
+                    src="https://source.unsplash.com/1280x720/?water"
+                    alt="Image Slider"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-image">
+                  <img
+                    src="https://source.unsplash.com/1280x720/?animal"
+                    alt="Image Slider"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-image">
+                  <img
+                    src="https://source.unsplash.com/1280x720/?travel"
+                    alt="Image Slider"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-image">
+                  <img
+                    src="https://source.unsplash.com/1280x720/?flower"
+                    alt="Image Slider"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+
+            <!-- Add Scrollbar -->
+            <div class="swiper-button-next">
+              <i class="fas fa-chevron-circle-right arrow-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fas fa-chevron-circle-left arrow-icon"></i>
+            </div>
+          </div>
         </div>
-      </div>
+      </main>
     </header>
     <main></main>
     <footer></footer>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"
-    ></script>
     <script src="main.js"></script>
   </body>
 </html>

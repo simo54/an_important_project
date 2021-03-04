@@ -26,8 +26,8 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "@splidejs/splide": "^2.4.21",
     "glob": "^7.1.6",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "swiper": "^6.4.15"
   }
 }

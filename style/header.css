@@ -20,8 +20,9 @@ nav ul li a {
   text-decoration: none;
 }
 
-.splide {
+.swiper-container {
   height: 100%;
+  width: 100%;
 }
 
 /* Responsive guideline from Bootstrap 4 */
