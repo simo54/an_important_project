@@ -7,7 +7,6 @@ main {
   justify-content: center;
   align-items: center;
   height: 50vh;
-  border: 1px solid black;
 }
 
 .box_info {
@@ -22,7 +21,7 @@ main {
 .container_offer {
   display: block;
   height: 70vh;
-  border: 1px solid black;
+
   margin: 0 15%;
 }
 
@@ -34,13 +33,14 @@ main {
   display: grid;
   grid-column-gap: 50px;
   grid-template-columns: auto auto;
+  text-align: center;
 }
 
 .card {
   position: relative;
   border-radius: 10px;
   height: 400px;
-  border: 1px solid red;
+  border: 1px solid #e5e5e5;
 }
 
 .card_image img {
