@@ -1,10 +1,15 @@
 header {
-  background-color: red;
-  height: 90vh;
+  height: 80vh;
   width: 100%;
 }
 
+nav {
+  border: 1px solid blue;
+  height: 10vh;
+}
+
 nav ul {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,7 +18,6 @@ nav ul {
 }
 
 nav ul li a {
-  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -21,8 +25,7 @@ nav ul li a {
 }
 
 .swiper-container {
-  height: 100%;
-  width: 100%;
+  height: 70vh;
 }
 
 /* Responsive guideline from Bootstrap 4 */

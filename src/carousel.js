@@ -1,9 +1,9 @@
 import _ from "lodash";
-// import Swiper JS
+
 import Swiper from "swiper/core";
 import "swiper/swiper-bundle.css";
-// Swiper Configuration
-var swiper = new Swiper(".swiper-container", {
+
+const swiper = new Swiper(".swiper-container", {
   slidesPerView: 1.5,
   spaceBetween: 10,
   centeredSlides: true,

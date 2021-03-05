@@ -2,6 +2,7 @@ const path = require("path");
 const glob = require("glob");
 
 module.exports = {
+  mode: "development",
   entry: glob.sync("./src/*.js"),
   output: {
     filename: "main.js",
