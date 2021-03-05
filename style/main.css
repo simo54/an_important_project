@@ -7,6 +7,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 50vh;
+  border: 1px solid black;
 }
 
 .box_info {
@@ -16,6 +17,27 @@ main {
   width: 100%;
   margin: 20px 200px;
   border-radius: 10px;
+}
+
+.container_box_offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border: 1px solid black;
+}
+
+.box_offer {
+  position: relative;
+  background-color: red;
+  height: 30vh;
+  width: 100%;
+  margin: 0 200px;
+  border-radius: 10px;
+}
+
+.container_title_promotion {
+  text-align: center;
 }
 
 /* Responsive guideline from Bootstrap 4 */
