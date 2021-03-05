@@ -7,14 +7,15 @@ main {
   justify-content: center;
   align-items: center;
   height: 50vh;
-  background-color: green;
 }
 
 .box_info {
   position: relative;
   background-color: red;
-  height: 5vh;
-  margin: 20px 50px;
+  height: 30vh;
+  width: 100%;
+  margin: 20px 200px;
+  border-radius: 10px;
 }
 
 /* Responsive guideline from Bootstrap 4 */
