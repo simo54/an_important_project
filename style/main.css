@@ -22,6 +22,8 @@ main {
 .container_offer {
   display: block;
   height: 70vh;
+  border: 1px solid black;
+  margin: 20px 200px;
 }
 
 .container_title_promotion {
@@ -30,6 +32,7 @@ main {
 
 .cards_container {
   display: grid;
+  grid-column-gap: 50px;
   grid-template-columns: auto auto;
 }
 
