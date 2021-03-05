@@ -19,12 +19,8 @@ main {
   border-radius: 10px;
 }
 
-.container_box_offer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  border: 1px solid black;
+.container_offer {
+  height: 70vh;
 }
 
 .box_offer {
@@ -32,7 +28,7 @@ main {
   background-color: red;
   height: 30vh;
   width: 100%;
-  margin: 0 200px;
+  margin: 20px 200px;
   border-radius: 10px;
 }
 
