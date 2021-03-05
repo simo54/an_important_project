@@ -2,6 +2,21 @@ main {
   width: 100%;
 }
 
+.container_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: green;
+}
+
+.box_info {
+  position: relative;
+  background-color: red;
+  height: 5vh;
+  margin: 20px 50px;
+}
+
 /* Responsive guideline from Bootstrap 4 */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
