@@ -10,12 +10,27 @@ main {
 }
 
 .box_info {
+  display: flex;
   position: relative;
   height: 30vh;
   width: 100%;
   margin: 20px 15%;
   border-radius: 10px;
   border: 1px solid #e5e5e5;
+}
+
+.box_info .div_info_one {
+  width: 30%;
+  position: relative;
+}
+
+.box_info .div_info_one img {
+  width: 100%;
+}
+
+.box_info .div_info_two {
+  width: 70%;
+  display: flex;
 }
 
 .container_offer {

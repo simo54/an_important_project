@@ -16,6 +16,8 @@ Webpack played an important role in the project because I wantend to bundle mult
 
 [Responsive Navigation Bar](https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf)
 
+[CSS Text Gradient Generator](https://www.cssportal.com/css-text-gradient-generator/)
+
 ## Fonts Sky Text
 
 [Source](onlinewebfonts.com/download/0073e3300330cceadd2ceaa220b38423)
