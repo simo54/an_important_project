@@ -15,3 +15,8 @@ Webpack played an important role in the project because I wantend to bundle mult
 ## Credits
 
 [Responsive Navigation Bar](https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf)
+
+## Fonts Sky Text
+
+[Source](onlinewebfonts.com/download/0073e3300330cceadd2ceaa220b38423)
+Copyright (c) 2009 BSkyB Ltd.

@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/0073e3300330cceadd2ceaa220b38423?family=Sky+Text);
 @import url(header.css);
 @import url(footer.css);
 @import url(main.css);
@@ -7,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Sky Text";
 }
 
 /* Responsive guideline from Bootstrap 4 */
