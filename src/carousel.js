@@ -12,7 +12,6 @@ Swiper.use([Navigation, Pagination, Scrollbar, Autoplay]);
 
 const swiper = new Swiper(".swiper-container", {
   centeredSlides: true,
-  freeMode: true,
   grabCursor: true,
   loop: true,
   autoplay: {
@@ -23,10 +22,11 @@ const swiper = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  scrollbar: {
-    el: ".swiper-scrollbar",
-    hide: true,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "progressbar",
   },
+
   breakpoints: {
     500: {
       slidesPerView: 1,
