@@ -12,7 +12,7 @@ main {
 .box_info {
   display: flex;
   position: relative;
-  height: 30vh;
+  height: 35vh;
   width: 100%;
   margin: 20px 15%;
   border-radius: 10px;
@@ -32,10 +32,20 @@ main {
   width: 70%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(90deg, #000ff5, #00d2ff);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .box_info .div_info_two .box_info_title {
   margin: 0 20px;
+}
+
+.box_info .div_info_two .box_info_title .text_title,
+.text_price {
+  font-size: 1.8rem;
 }
 
 .box_info .div_info_two .box_info_button {
@@ -45,10 +55,13 @@ main {
 }
 
 .box_info .div_info_two .box_info_button button {
+  background-color: white;
+  color: #007aff;
   width: 150px;
   height: 50px;
   border-radius: 20px;
   cursor: pointer;
+  border: none;
 }
 
 .container_offer {
