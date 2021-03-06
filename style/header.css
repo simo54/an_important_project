@@ -3,27 +3,21 @@ header {
   width: 100%;
 }
 
-nav {
-  height: 10vh;
+.navbar {
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
 }
 
-nav ul {
-  display: flex;
+.main-nav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
 
-nav ul li a {
-  color: black;
+.nav-links,
+.logo {
   text-decoration: none;
-  text-align: center;
-  padding: 14px 16px;
-}
-
-nav ul li a:hover {
-  color: grey;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .swiper-container {
