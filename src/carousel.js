@@ -26,13 +26,12 @@ const swiper = new Swiper(".swiper-container", {
     el: ".swiper-pagination",
     type: "progressbar",
   },
-
   breakpoints: {
     500: {
       slidesPerView: 1,
     },
     700: {
-      slidesPerView: 1.5,
+      slidesPerView: 1,
     },
   },
 });
