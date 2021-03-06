@@ -6,4 +6,12 @@
 
 An interesting challenge about creating a sky look-alike website.
 
-## Installation
+## Initial considerations
+
+The challenge is aimed to make a completely new landing page in approximately 3 calendar days. Considering that Bootstrap 4 has been incorporated in the original website, this project will only be using CSS to demonstrate how to obtain the same results without a styling framework.
+
+Webpack played an important role in the project because I wantend to bundle multiple files (CSS, JS) into one, to avoid using any heavy weight JS framework.
+
+## Credits
+
+[Responsive Navigation Bar](https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf)
