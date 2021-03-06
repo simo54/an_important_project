@@ -1,19 +1,20 @@
 import _ from "lodash";
 
-import Swiper from "swiper/core";
+import Swiper, {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  Autoplay,
+} from "swiper/core";
 import "swiper/swiper-bundle.css";
 
+Swiper.use([Navigation, Pagination, Scrollbar, Autoplay]);
+
 const swiper = new Swiper(".swiper-container", {
-  slidesPerView: 1.5,
-  spaceBetween: 10,
   centeredSlides: true,
   freeMode: true,
   grabCursor: true,
   loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
   autoplay: {
     delay: 4000,
     disableOnInteraction: false,
@@ -21,6 +22,10 @@ const swiper = new Swiper(".swiper-container", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
   },
   breakpoints: {
     500: {
